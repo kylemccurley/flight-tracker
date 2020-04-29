@@ -9,7 +9,8 @@ end
 post '/data' do
   @airline = params[:airline]
   @destination = params[:destination]
-  @flighttime = params[:flighttime]
+  @flightnumber = params[:flightnumber]
+  @departuretime = params[:departuretime]
   
   erb :display
 end
